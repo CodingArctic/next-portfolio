@@ -9,7 +9,7 @@ import Link from "next/link";
 const ProjectCard = ({ title, link, github, image }) => {
     return (
         <>
-            <div className="border-1 rounded-md max-w-2xl min-w-lg m-2 p-4">
+            <div className="border-1 rounded-md max-w-2xl m-2 p-4">
                 <h1 className="text-3xl">{title}</h1>
                 <div className="flex p-2">
                 <Link href={link}><FontAwesomeIcon icon={faLink} width={50} height={50}/></Link>
