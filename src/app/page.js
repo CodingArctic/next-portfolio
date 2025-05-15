@@ -1,6 +1,8 @@
 import Projects from "./components/Projects";
 import SocialLink from "./components/SocialLink";
 import Resume from "./components/Resume";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from '@fortawesome/fontawesome-free-solid';
 
 export default function Home() {
   return (
@@ -21,8 +23,9 @@ export default function Home() {
         <Projects />
         <hr className="m-5 opacity-50" />
         <Resume />
-        <footer>
-          made with love by clyde + next.js
+        <footer className="text-center align-middle">
+          <p>made with <FontAwesomeIcon width={16} icon={faHeart} className="inline"></FontAwesomeIcon> by clyde + next.js</p>
+          <p>© 2025 clyde.biz - All Rights Reserved. </p>
         </footer>
       </div>
     </>
