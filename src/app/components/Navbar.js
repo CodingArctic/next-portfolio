@@ -42,7 +42,7 @@ function NavList() {
           Resume
         </a>
       </Typography>
-      <Typography
+      {/* <Typography
         as="li"
         variant="small"
         color="blue-gray"
@@ -51,7 +51,7 @@ function NavList() {
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
           Contact
         </a>
-      </Typography>
+      </Typography> */}
     </ul>
   );
 }
@@ -77,7 +77,7 @@ export function NavbarSimple() {
           as="a"
           href="#"
           variant="h6"
-          className="mr-4 cursor-pointer py-1.5"
+          className="mr-4 cursor-pointer py-1.5 text-xl"
         >
           Clyde Geyer
         </Typography>
