@@ -1,6 +1,3 @@
-/* eslint react/no-unescaped-entities */
-
-import Image from "next/image";
 import Projects from "./components/Projects";
 import SocialLink from "./components/SocialLink";
 import Resume from "./components/Resume";
