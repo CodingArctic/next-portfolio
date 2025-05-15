@@ -8,7 +8,7 @@ export default function Home() {
       <div>
         <div className="container mx-auto px-4 text-center">
           <div>
-            <h2 className="mt-3 text-5xl">Hi there, my name is<span className="text-blue-400 ml-3">Clyde</span></h2>
+            <p className="mt-3 text-5xl">Hi there, my name is <span className="text-blue-400">Clyde</span></p>
           </div>
           <div className="mt-2">I'm a full-stack developer</div>
           <div>and fourth-year Web & Mobile Computing Major at RIT</div>
