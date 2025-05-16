@@ -12,8 +12,18 @@ const ProjectCard = ({ title, link, github, image }) => {
             <div className="border-1 rounded-md max-w-2xl m-2 p-4">
                 <h1 className="text-3xl">{title}</h1>
                 <div className="flex p-2">
-                <Link target="_blank" href={link}><FontAwesomeIcon icon={faLink} width={50} height={50}/></Link>
-                <Link target="_blank" href={github}><FontAwesomeIcon icon={faGithub} width={50} height={50}/></Link>
+                {link && (
+                    <Link target="_blank" href={link}>
+                        <FontAwesomeIcon icon={faLink} width={50} height={50} />
+                    </Link>
+                )}
+
+                {github && (
+                    <Link target="_blank" href={github}>
+                        <FontAwesomeIcon icon={faGithub} width={50} height={50} />
+                    </Link>
+                )}
+
                 </div>
                 <Image src={image} width={600} height={600} alt={title}></Image>
             </div>
