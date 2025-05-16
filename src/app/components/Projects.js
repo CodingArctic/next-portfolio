@@ -9,8 +9,8 @@ function Projects() {
             </h1>
             <div className="flex justify-center flex-auto flex-wrap">
                 <ProjectCard title="iSchool at RIT Info Site (React.js)" link="https://340Proj2.pages.dev" image="/images/projects/ischool.png" github="https://github.com/CodingArctic/340Proj2"/>
+                <ProjectCard title="CRUD Car Marketplace Demo/API" image="/images/projects/carmart.png" github="https://github.com/CodingArctic/iste444-project2"/>
                 <ProjectCard title="Unix Tutorial Page" link="https://clyde.biz/240GroupProj" image="/images/projects/unix.png" github="https://github.com/CodingArctic/240GroupProj"/>
-                {/* <ProjectCard title="iSchool at RIT Info Site (React.js)" link="https://340Proj2.pages.dev" image="/images/projects/ischool.png" github="https://github.com/CodingArctic/340Proj2"/> */}
             </div>
         </div>
     );
