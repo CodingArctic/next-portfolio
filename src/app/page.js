@@ -2,7 +2,7 @@ import Projects from "./components/Projects";
 import SocialLink from "./components/SocialLink";
 import Resume from "./components/Resume";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from '@fortawesome/fontawesome-free-solid';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (

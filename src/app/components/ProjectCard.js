@@ -3,7 +3,7 @@ import Image from "next/image";
 import SocialLink from "./SocialLink";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub} from '@fortawesome/free-brands-svg-icons';
-import { faLink } from '@fortawesome/fontawesome-free-solid';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 import Link from "next/link";
 
 const ProjectCard = ({ title, link, github, image }) => {
