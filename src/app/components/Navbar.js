@@ -18,7 +18,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="/#" className="flex items-center hover:text-blue-500 transition-colors">
           Home
         </a>
       </Typography>
@@ -28,7 +28,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#projects" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="/#projects" className="flex items-center hover:text-blue-500 transition-colors">
           Projects
         </a>
       </Typography>
@@ -38,7 +38,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#resume" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="/#resume" className="flex items-center hover:text-blue-500 transition-colors">
           Resume
         </a>
       </Typography>
@@ -71,11 +71,11 @@ export function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className="mx-auto  px-6 py-3 bg-gray-800">
+    <Navbar className="mx-auto sticky top-0 z-50 px-6 py-3 bg-gray-800">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
-          href="#"
+          href="/#"
           variant="h6"
           className="mr-4 cursor-pointer py-1.5 text-xl"
         >
