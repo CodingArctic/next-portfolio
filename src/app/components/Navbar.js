@@ -8,6 +8,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
  
 function NavList() {
   return (
@@ -18,9 +19,9 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="/#" className="flex items-center hover:text-blue-500 transition-colors">
+        <Link href="/#" className="flex items-center hover:text-blue-500 transition-colors">
           Home
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -28,9 +29,9 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="/#projects" className="flex items-center hover:text-blue-500 transition-colors">
+        <Link href="/#projects" className="flex items-center hover:text-blue-500 transition-colors">
           Projects
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -38,9 +39,9 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="/#resume" className="flex items-center hover:text-blue-500 transition-colors">
+        <Link href="/#resume" className="flex items-center hover:text-blue-500 transition-colors">
           Resume
-        </a>
+        </Link>
       </Typography>
       {/* <Typography
         as="li"
