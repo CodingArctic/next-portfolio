@@ -1,25 +1,24 @@
 import React from 'react';
 import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 
 const socialMediaLogos = {
-    github: faGithub,
-    linkedin: faLinkedin,
+    github: FaGithub,
+    linkedin: FaLinkedin,
 };
 
 const SocialLink = ({ name, url }) => {
-    const icon = socialMediaLogos[name.toLowerCase()];
+    const Icon = socialMediaLogos[name.toLowerCase()];
 
-    if (!icon) {
+    if (!Icon) {
         return <p>Logo for {name} not found</p>;
     }
 
     return (
         <div className="">
             <Link href={url} target='_blank'>
-                <FontAwesomeIcon width="75px" height="75px" icon={icon} />
+                <Icon size={75}/>
             </Link>
         </div>
     );
