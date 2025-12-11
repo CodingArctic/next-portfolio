@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { FaLink, FaGithub, FaReact, FaPython, FaNodeJs, FaJs, FaHtml5, FaCss3Alt, FaDocker, FaAws, FaVuejs, FaAngular, FaPhp } from 'react-icons/fa';
 import { FaGolang } from 'react-icons/fa6'
-import { SiNextdotjs, SiTailwindcss, SiTypescript, SiMongodb, SiPostgresql, SiRedis, SiGraphql, SiDjango, SiFlask, SiExpress, SiKubernetes, SiSqlite } from 'react-icons/si';
+import { SiNextdotjs, SiTailwindcss, SiTypescript, SiMongodb, SiPostgresql, SiRedis, SiGraphql, SiDjango, SiFlask, SiExpress, SiKubernetes, SiSqlite, SiVite } from 'react-icons/si';
 import Link from "next/link";
 
 // Icon mapping object
@@ -30,7 +30,8 @@ const iconMap = {
     kubernetes: SiKubernetes,
     golang: FaGolang,
     php: FaPhp,
-    sqlite: SiSqlite
+    sqlite: SiSqlite,
+    vite: SiVite
 };
 
 const ProjectCard = ({ title, link, github, image, description, techStack = [] }) => {
@@ -44,7 +45,7 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [] }
                     alt={title}
                     className="rounded-md m-auto w-full h-auto md:h-100 md:object-cover md:object-top"
                 />
-                <div className="flex p-2 place-content-between">
+                <div className="flex mt-2 place-content-between">
                     <h1 className="text-3xl mt-2">{title}</h1>
                     <div className="flex flex-row">
                         {link && (
