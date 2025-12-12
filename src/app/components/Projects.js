@@ -37,7 +37,7 @@ function Projects() {
                     image="/images/projects/unix.png"
                     github="https://github.com/CodingArctic/240GroupProj"
                     description="A tutorial website to teach common Unix skills & commands."
-                    techStack={['php', 'html', 'css']}
+                    techStack={['php', 'html', 'css', 'javascript']}
                 />
             </div>
         </div>
