@@ -15,7 +15,7 @@ function NavList() {
     <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
-        variant="small"
+        variant="medium"
         color="blue-gray"
         className="p-1 font-medium"
       >
@@ -25,7 +25,7 @@ function NavList() {
       </Typography>
       <Typography
         as="li"
-        variant="small"
+        variant="medium"
         color="blue-gray"
         className="p-1 font-medium"
       >
@@ -35,7 +35,7 @@ function NavList() {
       </Typography>
       <Typography
         as="li"
-        variant="small"
+        variant="medium"
         color="blue-gray"
         className="p-1 font-medium"
       >
@@ -72,13 +72,13 @@ export function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className="mx-auto sticky top-0 z-50 px-6 py-3 bg-gray-800">
+    <Navbar className="mx-auto rounded-none rounded-b-lg sticky top-0 z-50 px-6 py-3 bg-[#192A51]">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="/#"
           variant="h6"
-          className="mr-4 cursor-pointer py-1.5 text-xl"
+          className="mr-4 cursor-pointer py-1.5 text-2xl font-semibold"
         >
           Clyde Geyer
         </Typography>
