@@ -42,3 +42,6 @@ next-env.d.ts
 
 # for cloudflare compatibility
 package-lock.json
+
+# open next js - for cloudflare connection
+.open-next
