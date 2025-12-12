@@ -37,7 +37,7 @@ const iconMap = {
 const ProjectCard = ({ title, link, github, image, description, techStack = [] }) => {
     return (
         <>
-            <div className="relative rounded-xl max-w-2xl m-6 p-4 bg-gradient-to-bl from-[#D5C6E0]/20 via-[#192A51] to-[#192A51] transform transition-all duration-300 hover:scale-[1.03] overflow-hidden will-change-transform shadow-[0_0_0_2px_#BA5A31] hover:shadow-[0_0_20px_rgba(186,90,49,0.5),0_0_0_2px_#BA5A31]">
+            <div className="relative rounded-xl max-w-2xl m-6 p-4 bg-gradient-to-bl from-[#D5C6E0]/60 via-[#192A51] to-[#192A51] transform transition-all duration-300 hover:scale-[1.03] overflow-hidden will-change-transform shadow-[0_0_0_2px_#BA5A31] hover:shadow-[0_0_20px_rgba(186,90,49,0.5),0_0_0_2px_#BA5A31]">
                 <Image
                     src={image}
                     width={600}
