@@ -37,7 +37,7 @@ const iconMap = {
 const ProjectCard = ({ title, link, github, image, description, techStack = [] }) => {
     return (
         <>
-            <div className="border-1 rounded-md max-w-2xl m-2 p-4">
+            <div className="border-2 border-[#BA5A31] rounded-xl max-w-2xl m-6 p-4 bg-gradient-to-bl from-[#D5C6E0] via-[#192A51] to-[#192A51] transform transition duration-250 hover:scale-103">
                 <Image
                     src={image}
                     width={600}
@@ -59,7 +59,7 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [] }
                                 const Icon = iconMap[tech.toLowerCase()];
                                 return Icon ? (
                                     <div key={index} className="flex items-center gap-1 text-sm">
-                                        <Icon size={24} />
+                                        <Icon size={24} color="#BA5A31"/>
                                     </div>
                                 ) : null;
                             })}
@@ -67,13 +67,13 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [] }
                     )}
                     <div className="flex flex-row">
                         {link && (
-                            <Link target="_blank" href={link}>
-                                <FaLink size={40} />
+                            <Link target="_blank" className="p-1.5" href={link}>
+                                <FaLink size={40} color="#D5C6E0"/>
                             </Link>
                         )}
                         {github && (
-                            <Link target="_blank" href={github}>
-                                <FaGithub size={40} />
+                            <Link target="_blank" className="p-1.5" href={github}>
+                                <FaGithub size={40} color="#D5C6E0"/>
                             </Link>
                         )}
                     </div>
