@@ -18,7 +18,7 @@ const SocialLink = ({ name, url }) => {
     return (
         <div className="">
             <Link href={url} target='_blank'>
-                <Icon size={75}/>
+                <Icon className="fill-[#D5C6E0]" size={75}/>
             </Link>
         </div>
     );
