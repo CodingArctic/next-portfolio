@@ -21,7 +21,7 @@ function Projects() {
                     link="https://340Proj2.pages.dev"
                     image="/images/projects/ischool.png"
                     github="https://github.com/CodingArctic/340Proj2"
-                    description="A frontend-only project using RIT's iSchool API routes."
+                    description="A data-driven frontend project using RIT's iSchool API routes."
                     techStack={['vite', 'react', 'css']}
                 />
                 <ProjectCard
