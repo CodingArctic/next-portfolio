@@ -9,7 +9,7 @@ export default function Home() {
       <div>
         <div className="container mx-auto px-4 text-center">
           <div>
-            <p className="mt-6 text-5xl max-w-[80%] m-auto font-light">Hi, my name is <span className="text-[#D5C6E0] font-bold">Clyde Geyer</span></p>
+            <p className="mt-6 text-5xl max-w-[85%] m-auto font-light">Hi, my name is <span className="text-[#D5C6E0] font-bold">Clyde Geyer</span></p>
           </div>
           <div className="mt-2 m-auto max-w-80 text-wrap font-medium">
             I'm a full-stack developer, and fourth-year Web & Mobile Computing Major at RIT
@@ -24,7 +24,7 @@ export default function Home() {
         <hr className="m-5 opacity-50" />
         <Resume />
         <footer className="text-center my-2 align-middle">
-          <p>made with <FaHeart size={16} className="inline" /> by clyde + next.js</p>
+          <p>made with <FaHeart size={16} className="inline text-[#D5C6E0]" /> by clyde + next.js</p>
           <p>© 2025 clyde.biz - All Rights Reserved. </p>
         </footer>
       </div>
