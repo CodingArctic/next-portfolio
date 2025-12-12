@@ -17,7 +17,7 @@ function Projects() {
                     techStack={['golang', 'postgresql', 'nextjs', 'tailwind', 'docker']}
                 />
                 <ProjectCard
-                    title="iSchool at RIT Info Site"
+                    title="RIT iSchool Info Site"
                     link="https://340Proj2.pages.dev"
                     image="/images/projects/ischool.png"
                     github="https://github.com/CodingArctic/340Proj2"
