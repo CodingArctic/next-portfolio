@@ -19,7 +19,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <Link href="/#" className="flex items-center hover:text-blue-500 transition-colors">
+        <Link href="/#" className="flex items-center hover:text-[#D5C6E0] transition-colors">
           Home
         </Link>
       </Typography>
@@ -29,7 +29,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <Link href="/#projects" className="flex items-center hover:text-blue-500 transition-colors">
+        <Link href="/#projects" className="flex items-center hover:text-[#D5C6E0] transition-colors">
           Projects
         </Link>
       </Typography>
@@ -39,20 +39,10 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <Link href="/#resume" className="flex items-center hover:text-blue-500 transition-colors">
+        <Link href="/#resume" className="flex items-center hover:text-[#D5C6E0] transition-colors">
           Resume
         </Link>
       </Typography>
-      {/* <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-medium"
-      >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Contact
-        </a>
-      </Typography> */}
     </ul>
   );
 }
@@ -78,9 +68,9 @@ export function NavbarSimple() {
           as="a"
           href="/#"
           variant="h6"
-          className="mr-4 cursor-pointer py-1.5 text-2xl font-semibold"
+          className="mr-4 cursor-pointer py-1.5 text-lg font-semibold hover:text-[#D5C6E0] transition-colors"
         >
-          Clyde Geyer
+          CLYDE GEYER | FULL STACK
         </Typography>
         <div className="hidden lg:block">
           <NavList />
@@ -92,14 +82,14 @@ export function NavbarSimple() {
           onClick={() => setOpenNav(!openNav)}
         >
           {openNav ? (
-            <XMarkIcon className="h-6 w-6" strokeWidth={2} />
+            <XMarkIcon className="h-6 w-6 hover:cursor-pointer" strokeWidth={2} />
           ) : (
-            <Bars3Icon className="h-6 w-6" strokeWidth={2} />
+            <Bars3Icon className="h-6 w-6 hover:cursor-pointer" strokeWidth={2} />
           )}
         </IconButton>
       </div>
       <Collapse open={openNav}>
-        {openNav && <NavList />}
+        <NavList />
       </Collapse>
     </Navbar>
   );
