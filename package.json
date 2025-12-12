@@ -12,14 +12,12 @@
     "deploy": "npm run pages:build && wrangler pages deploy"
   },
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "^6.7.2",
-    "@fortawesome/free-solid-svg-icons": "^6.7.2",
-    "@fortawesome/react-fontawesome": "^0.2.2",
     "@heroicons/react": "^2.2.0",
     "@material-tailwind/react": "^2.1.10",
     "next": "15.4.8",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.12",
