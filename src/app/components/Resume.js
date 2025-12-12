@@ -12,9 +12,9 @@ function Resume() {
             </iframe>
             <Link href={PATH}
                 target="blank"
-                className="block sm:hidden p-4 bg-[#BA5A31]"
+                className="block sm:hidden p-4 bg-[#BA5A31] rounded-md"
             >
-                <p className="font-light m-auto rounded-md text-center">
+                <p className="font-light m-auto text-center">
                     Not enough width! Click here for full screen.
                 </p>
             </Link>

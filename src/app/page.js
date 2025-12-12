@@ -23,7 +23,7 @@ export default function Home() {
         <Projects />
         <hr className="m-5 opacity-50" />
         <Resume />
-        <footer className="text-center align-middle">
+        <footer className="text-center my-2 align-middle">
           <p>made with <FaHeart size={16} className="inline" /> by clyde + next.js</p>
           <p>© 2025 clyde.biz - All Rights Reserved. </p>
         </footer>
