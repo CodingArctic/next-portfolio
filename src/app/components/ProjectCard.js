@@ -46,35 +46,38 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [] }
                     className="rounded-md m-auto w-full h-auto md:h-100 md:object-cover md:object-top"
                 />
                 <div className="flex mt-2 place-content-between">
-                    <h1 className="text-3xl mt-2">{title}</h1>
-                    <div className="flex flex-row">
-                        {link && (
-                            <Link target="_blank" href={link}>
-                                <FaLink size={40}/>
-                            </Link>
-                        )}
-                        {github && (
-                            <Link target="_blank" href={github}>
-                                <FaGithub size={40}/>
-                            </Link>
-                        )}
-                    </div>
+                    <h1 className="text-3xl mt-2 font-bold">{title}</h1>
+
                 </div>
                 {description && (
                     <p>{description}</p>
                 )}
-                {techStack.length > 0 && (
-                    <div className="flex flex-wrap gap-2 mt-3">
-                        {techStack.map((tech, index) => {
-                            const Icon = iconMap[tech.toLowerCase()];
-                            return Icon ? (
-                                <div key={index} className="flex items-center gap-1 text-sm">
-                                    <Icon size={24} />
-                                </div>
-                            ) : null;
-                        })}
+                <div className="flex place-content-between">
+                    {techStack.length > 0 && (
+                        <div className="flex flex-wrap gap-2 mt-3">
+                            {techStack.map((tech, index) => {
+                                const Icon = iconMap[tech.toLowerCase()];
+                                return Icon ? (
+                                    <div key={index} className="flex items-center gap-1 text-sm">
+                                        <Icon size={24} />
+                                    </div>
+                                ) : null;
+                            })}
+                        </div>
+                    )}
+                    <div className="flex flex-row">
+                        {link && (
+                            <Link target="_blank" href={link}>
+                                <FaLink size={40} />
+                            </Link>
+                        )}
+                        {github && (
+                            <Link target="_blank" href={github}>
+                                <FaGithub size={40} />
+                            </Link>
+                        )}
                     </div>
-                )}
+                </div>
             </div>
         </>
     );
