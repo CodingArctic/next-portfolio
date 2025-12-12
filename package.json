@@ -7,15 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && wrangler pages deploy .open-next/worker",
-    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+    "deploy": "npm run build && wrangler pages deploy out"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@material-tailwind/react": "^2.1.10",
-    "@opennextjs/cloudflare": "^1.14.5",
     "esbuild": "^0.27.1",
     "next": "~15.5.8",
     "react": "^19.0.0",
