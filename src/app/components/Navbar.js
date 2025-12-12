@@ -72,8 +72,8 @@ export function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className="mx-auto rounded-none rounded-b-lg sticky top-0 z-50 px-6 py-3 bg-[#D5C6E0]">
-      <div className="flex items-center justify-between text-[#0a0a0a]">
+    <Navbar className="mx-auto rounded-none rounded-b-lg sticky top-0 z-50 px-6 py-3 bg-[#192A51]">
+      <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="/#"

@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
     return (
         <div className="m-5">
-            <h1 id="projects" className="text-5xl mb-5 font-bold text-[#2B7FFF]">
+            <h1 id="projects" className="text-5xl mb-5 font-bold text-[#D5C6E0]">
                 Projects
             </h1>
             <div className="flex justify-center flex-auto flex-wrap">
