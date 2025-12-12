@@ -29,7 +29,7 @@ function Projects() {
                     image="/images/projects/carmart.png"
                     github="https://github.com/CodingArctic/iste444-project2"
                     description="A full-stack demo car marketplace with basic API CRUD actions."
-                    techStack={['sqlite', 'express', 'vite', 'react', 'css']}
+                    techStack={['express', 'sqlite', 'vite', 'react', 'css']}
                 />
                 <ProjectCard
                     title="Hitchhiker's Guide to Unix"
