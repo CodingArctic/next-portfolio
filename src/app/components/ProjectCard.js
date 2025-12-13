@@ -45,6 +45,7 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [], 
                     alt={title}
                     priority={priority}
                     fetchPriority={priority ? "high" : "auto"}
+                    sizes="(max-width: 768px) 100vw, 672px"
                     className="rounded-md m-auto border-3 border-background w-full h-auto md:h-100 md:object-cover md:object-top transition-transform duration-300"
                 />
                 <div className="flex mt-2 place-content-between items-center">
@@ -59,7 +60,7 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [], 
                             {techStack.map((tech, index) => {
                                 const Icon = iconMap[tech.toLowerCase()];
                                 return Icon ? (
-                                    <div key={index} aria-label={`${tech} icon`} className="flex items-center gap-1 text-sm transition-transform hover:scale-110">
+                                    <div key={index} className="flex items-center gap-1 text-sm transition-transform hover:scale-110">
                                         <Icon size={24} color="#F1733D"/>
                                     </div>
                                 ) : null;

@@ -4,7 +4,8 @@
 const nextConfig = {
   output: "export",
   images: {
-    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './src/imageLoader.js',
     formats: ['image/webp', 'image/avif'],
   },
   compiler: {
