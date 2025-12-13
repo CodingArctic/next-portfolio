@@ -5,10 +5,12 @@ import { NavbarSimple } from "./components/Navbar.js"
 export const metadata = {
   title: "Clyde Geyer",
   description: "Clyde Geyer's Portfolio Website",
+  metadataBase: new URL('https://clyde.biz'),
   openGraph: {
     title: "Clyde Geyer",
     description: "Clyde Geyer's Portfolio Website",
     images: ['/opengraph-image.png'],
+    url: 'https://clyde.biz',
   },
 };
 
