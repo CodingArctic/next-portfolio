@@ -4,9 +4,7 @@
 const nextConfig = {
   output: "export",
   images: {
-    loader: 'custom',
-    loaderFile: './src/imageLoader.js',
-    formats: ['image/webp', 'image/avif'],
+    unoptimized: true,
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
