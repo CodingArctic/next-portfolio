@@ -14,10 +14,10 @@ function Resume() {
                     target="blank"
                     className="block sm:hidden p-2 bg-[#BA5A31] m-auto rounded-md w-9/12"
                 >
-                    <p className="font-light text-center text-wrap">
+                    <p className="font-semibold text-center text-wrap">
                         Not enough width!
                     </p>
-                    <p className="font-light text-center">
+                    <p className="font-semibold text-center">
                         Click here for full screen.
                     </p>
                 </Link>
