@@ -44,6 +44,7 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [], 
                     height={400}
                     alt={title}
                     priority={priority}
+                    fetchPriority={priority ? "high" : "auto"}
                     className="rounded-md m-auto border-3 border-background w-full h-auto md:h-100 md:object-cover md:object-top transition-transform duration-300"
                 />
                 <div className="flex mt-2 place-content-between items-center">
