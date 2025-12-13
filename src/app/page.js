@@ -1,7 +1,9 @@
 import Projects from "./components/Projects";
 import SocialLink from "./components/SocialLink";
 import Resume from "./components/Resume";
-import { FaHeart } from 'react-icons/fa';
+import dynamic from 'next/dynamic';
+
+const FaHeart = dynamic(() => import('react-icons/fa').then(mod => ({ default: mod.FaHeart })), { ssr: true });
 
 export default function Home() {
   return (

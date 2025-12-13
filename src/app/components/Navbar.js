@@ -1,8 +1,11 @@
 "use client"
 
 import React from "react";
-import { HiMenuAlt3, HiX } from "react-icons/hi";
+import dynamic from 'next/dynamic';
 import Link from "next/link";
+
+const HiMenuAlt3 = dynamic(() => import('react-icons/hi').then(mod => ({ default: mod.HiMenuAlt3 })), { ssr: false });
+const HiX = dynamic(() => import('react-icons/hi').then(mod => ({ default: mod.HiX })), { ssr: false });
  
 function NavList() {
   return (
