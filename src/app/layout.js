@@ -5,6 +5,11 @@ import { NavbarSimple } from "./components/Navbar.js"
 export const metadata = {
   title: "Clyde Geyer",
   description: "Clyde Geyer's Portfolio Website",
+  openGraph: {
+    title: "Clyde Geyer",
+    description: "Clyde Geyer's Portfolio Website",
+    images: ['/opengraph-image.png'],
+  },
 };
 
 export default function RootLayout({ children }) {
