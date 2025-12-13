@@ -1,29 +1,23 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import { NavbarSimple } from "./components/Navbar.js"
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata = {
   title: "Clyde Geyer",
   description: "Clyde Geyer's Portfolio Website",
+  metadataBase: new URL('https://clyde.biz'),
+  openGraph: {
+    title: "Clyde Geyer",
+    description: "Clyde Geyer's Portfolio Website",
+    images: ['/opengraph-image.png'],
+    url: 'https://clyde.biz',
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" style={{backgroundColor: "#0a0a0a", color: "#ededed"}}>
+      <body className="antialiased">
         <NavbarSimple/>
         {children}
       </body>

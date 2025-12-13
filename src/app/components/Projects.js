@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
     return (
         <div className="m-5">
-            <h1 id="projects" className="text-5xl mb-5 font-bold text-[#2B7FFF]">
+            <h1 id="projects" className="text-5xl mb-5 font-bold text-[#D5C6E0]">
                 Projects
             </h1>
             <div className="flex justify-center flex-auto flex-wrap">
@@ -29,7 +29,7 @@ function Projects() {
                     image="/images/projects/carmart.png"
                     github="https://github.com/CodingArctic/iste444-project2"
                     description="A full-stack demo car marketplace with basic API CRUD actions."
-                    techStack={['sqlite', 'express', 'vite', 'react', 'css']}
+                    techStack={['express', 'sqlite', 'vite', 'react', 'css']}
                 />
                 <ProjectCard
                     title="Hitchhiker's Guide to Unix"
