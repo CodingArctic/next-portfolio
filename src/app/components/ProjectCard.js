@@ -59,8 +59,8 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [], 
                             {techStack.map((tech, index) => {
                                 const Icon = iconMap[tech.toLowerCase()];
                                 return Icon ? (
-                                    <div key={index} className="flex items-center gap-1 text-sm transition-transform hover:scale-110">
-                                        <Icon size={24} color="#BA5A31"/>
+                                    <div key={index} aria-label={`${tech} icon`} className="flex items-center gap-1 text-sm transition-transform hover:scale-110">
+                                        <Icon size={24} color="#F1733D"/>
                                     </div>
                                 ) : null;
                             })}
@@ -68,12 +68,12 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [], 
                     )}
                     <div className="flex flex-row gap-1">
                         {link && (
-                            <Link target="_blank" className="p-1.5 transition-all hover:scale-110 hover:text-[#BA5A31]" href={link}>
+                            <Link target="_blank" aria-label={`View ${title} project`} className="p-1.5 transition-all hover:scale-110 hover:text-[#BA5A31]" href={link}>
                                 <FaLink size={32} color="#D5C6E0"/>
                             </Link>
                         )}
                         {github && (
-                            <Link target="_blank" className="p-1.5 transition-all hover:scale-110 hover:text-[#BA5A31]" href={github}>
+                            <Link target="_blank" aria-label={`View ${title} on GitHub`} className="p-1.5 transition-all hover:scale-110 hover:text-[#BA5A31]" href={github}>
                                 <FaGithub size={32} color="#D5C6E0"/>
                             </Link>
                         )}
