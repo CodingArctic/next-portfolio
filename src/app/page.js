@@ -6,7 +6,7 @@ import { FaHeart } from 'react-icons/fa';
 export default function Home() {
   return (
     <>
-      <div>
+      <main role="main">
         <div className="container mx-auto px-4 text-center">
           <div>
             <p className="mt-6 text-5xl max-w-[85%] m-auto font-light">Hi, my name is <span className="text-[#D5C6E0] font-bold">Clyde Geyer</span></p>
@@ -23,11 +23,11 @@ export default function Home() {
         <Projects />
         <hr className="my-5 mx-auto opacity-50 max-w-[85%]" />
         <Resume />
-        <footer className="text-center my-2 align-middle">
+        <footer role="contentinfo" className="text-center my-2 align-middle">
           <p>made with <FaHeart size={16} className="inline text-[#D5C6E0]" /> by clyde + next.js</p>
           <p>© 2025 clyde.biz - All Rights Reserved. </p>
         </footer>
-      </div>
+      </main>
     </>
   );
 }

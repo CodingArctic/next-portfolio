@@ -41,7 +41,7 @@ export function NavbarSimple() {
   }, []);
  
   return (
-    <nav className="mx-auto rounded-b-lg sticky top-0 z-50 px-6 py-3 bg-[#192A51]">
+    <nav role="navigation" className="mx-auto rounded-b-lg sticky top-0 z-50 px-6 py-3 bg-[#192A51]">
       <div className="flex items-center justify-between text-gray-100">
         <Link
           href="/#"
