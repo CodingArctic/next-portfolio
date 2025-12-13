@@ -42,11 +42,12 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [], 
             <div className="relative rounded-xl max-w-2xl m-6 p-4 bg-gradient-to-bl from-[#D5C6E0]/60 via-[#2B7FFF]/20 to-[#2B7FFF]/20 transform transition-all duration-300 hover:scale-[1.03] overflow-hidden will-change-transform shadow-[0_0_0_2px_#D5C6E0] hover:shadow-[0_0_20px_rgba(213,198,224,0.5),0_0_0_2px_#D5C6E0]">
                 <img
                     srcSet={`${imagePath}-640w.webp 640w, ${imagePath}-1024w.webp 1024w, ${imagePath}.webp 1200w`}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 672px, 1200px"
+                    sizes="(max-width: 768px) 100vw, 672px"
                     src={`${imagePath}.webp`}
                     alt={title}
                     loading={priority ? "eager" : "lazy"}
                     fetchPriority={priority ? "high" : "auto"}
+                    decoding={priority ? "sync" : "async"}
                     className="rounded-md m-auto border-3 border-background w-full h-auto md:h-100 md:object-cover md:object-top transition-transform duration-300"
                 />
                 <div className="flex mt-2 place-content-between items-center">

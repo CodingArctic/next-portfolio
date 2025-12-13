@@ -25,6 +25,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={inter.variable} style={{backgroundColor: "#0a0a0a", color: "#ededed"}}>
+      <head>
+        <link rel="preload" as="image" href="/images/projects/golf-640w.webp" imageSrcSet="/images/projects/golf-640w.webp 640w, /images/projects/golf-1024w.webp 1024w, /images/projects/golf.webp 1200w" imageSizes="(max-width: 768px) 100vw, 672px" fetchPriority="high" />
+        <link rel="preload" as="image" href="/images/projects/ischool-640w.webp" imageSrcSet="/images/projects/ischool-640w.webp 640w, /images/projects/ischool-1024w.webp 1024w, /images/projects/ischool.webp 1200w" imageSizes="(max-width: 768px) 100vw, 672px" fetchPriority="high" />
+      </head>
       <body className="antialiased">
         <NavbarSimple/>
         {children}
