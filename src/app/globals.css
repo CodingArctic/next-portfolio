@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'Inter';
-  src: url('/fonts/Inter-VariableFont.ttf') format('truetype');
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
 @import "tailwindcss";
 
 :root {
@@ -29,5 +22,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Inter, sans-serif;
+  font-family: var(--font-inter), Inter, sans-serif;
 }
