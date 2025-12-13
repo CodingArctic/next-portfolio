@@ -34,7 +34,7 @@ const iconMap = {
     vite: SiVite
 };
 
-const ProjectCard = ({ title, link, github, image, description, techStack = [] }) => {
+const ProjectCard = ({ title, link, github, image, description, techStack = [], priority = false }) => {
     return (
         <>
             <div className="relative rounded-xl max-w-2xl m-6 p-4 bg-gradient-to-bl from-[#D5C6E0]/60 via-[#2B7FFF]/20 to-[#2B7FFF]/20 transform transition-all duration-300 hover:scale-[1.03] overflow-hidden will-change-transform shadow-[0_0_0_2px_#D5C6E0] hover:shadow-[0_0_20px_rgba(213,198,224,0.5),0_0_0_2px_#D5C6E0]">
@@ -43,7 +43,8 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [] }
                     width={600}
                     height={400}
                     alt={title}
-                    loading="lazy"
+                    priority={priority}
+                    fetchPriority={priority ? "high" : "auto"}
                     className="rounded-md m-auto border-3 border-background w-full h-auto md:h-100 md:object-cover md:object-top transition-transform duration-300"
                 />
                 <div className="flex mt-2 place-content-between items-center">

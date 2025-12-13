@@ -11,22 +11,24 @@ function Projects() {
                 <ProjectCard
                     title="Golf Card Game"
                     link="https://golf.clyde.biz"
-                    image="/images/projects/golf.png"
+                    image="/images/projects/golf.webp"
                     github="https://github.com/CodingArctic/golf-card-game"
                     description="A full-stack project built to recreate the card game Golf, online."
                     techStack={['golang', 'postgresql', 'nextjs', 'tailwind', 'docker']}
+                    priority={true}
                 />
                 <ProjectCard
                     title="RIT iSchool Info Site"
                     link="https://340Proj2.pages.dev"
-                    image="/images/projects/ischool.png"
+                    image="/images/projects/ischool.webp"
                     github="https://github.com/CodingArctic/340Proj2"
                     description="A data-driven frontend project using RIT's iSchool API routes."
                     techStack={['vite', 'react', 'css']}
+                    priority={true}
                 />
                 <ProjectCard
                     title="CRUD Car Marketplace Demo/API"
-                    image="/images/projects/carmart.png"
+                    image="/images/projects/carmart.webp"
                     github="https://github.com/CodingArctic/iste444-project2"
                     description="A full-stack demo car marketplace with basic API CRUD actions."
                     techStack={['express', 'sqlite', 'vite', 'react', 'css']}
@@ -34,7 +36,7 @@ function Projects() {
                 <ProjectCard
                     title="Hitchhiker's Guide to Unix"
                     link="https://clyde.biz/240GroupProj"
-                    image="/images/projects/unix.png"
+                    image="/images/projects/unix.webp"
                     github="https://github.com/CodingArctic/240GroupProj"
                     description="A tutorial website to teach common Unix skills & commands."
                     techStack={['php', 'html', 'css', 'javascript']}
