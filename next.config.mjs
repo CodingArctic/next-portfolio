@@ -13,7 +13,6 @@ const nextConfig = {
   // Optimize bundle size
   experimental: {
     optimizePackageImports: ['react-icons'],
-    optimizeCss: true,
   },
 };
 
