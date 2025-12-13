@@ -4,7 +4,7 @@ import React from "react";
 function Resume() {
     let PATH = "/docs/2025.12.12.resume.pdf";
     return (
-        <div id="resume" className="m-5 flex flex-col">
+        <div id="resume" className="my-5 mx-auto flex flex-col max-w-[85%]">
             <h1 id="projects" className="text-5xl mb-5 font-bold text-[#D5C6E0]">
                 Resume
             </h1>
@@ -12,7 +12,7 @@ function Resume() {
             </iframe>
                 <Link href={PATH}
                     target="blank"
-                    className="block sm:hidden p-2 bg-[#BA5A31] m-auto rounded-md w-9/12"
+                    className="block sm:hidden p-2 text-black bg-[#F1733D] m-auto rounded-md w-9/12"
                 >
                     <p className="font-semibold text-center text-wrap">
                         Not enough width!

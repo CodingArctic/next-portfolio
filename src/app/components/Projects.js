@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 function Projects() {
     return (
-        <div className="m-5">
+        <div className="m-auto max-w-[85%]">
             <h1 id="projects" className="text-5xl mb-5 font-bold text-[#D5C6E0]">
                 Projects
             </h1>
