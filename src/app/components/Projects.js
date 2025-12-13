@@ -15,6 +15,7 @@ function Projects() {
                     github="https://github.com/CodingArctic/golf-card-game"
                     description="A full-stack project built to recreate the card game Golf, online."
                     techStack={['golang', 'postgresql', 'nextjs', 'tailwind', 'docker']}
+                    priority={true}
                 />
                 <ProjectCard
                     title="RIT iSchool Info Site"
@@ -23,6 +24,7 @@ function Projects() {
                     github="https://github.com/CodingArctic/340Proj2"
                     description="A data-driven frontend project using RIT's iSchool API routes."
                     techStack={['vite', 'react', 'css']}
+                    priority={true}
                 />
                 <ProjectCard
                     title="CRUD Car Marketplace Demo/API"
