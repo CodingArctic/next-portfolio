@@ -19,7 +19,7 @@ function Projects() {
                 />
                 <ProjectCard
                     title="RIT iSchool Info Site"
-                    link="https://340Proj2.pages.dev"
+                    link="https://340.clyde.biz"
                     image="/images/projects/ischool.webp"
                     github="https://github.com/CodingArctic/340Proj2"
                     description="A data-driven frontend project using RIT's iSchool API routes."
@@ -35,7 +35,7 @@ function Projects() {
                 />
                 <ProjectCard
                     title="Hitchhiker's Guide to Unix"
-                    link="https://clyde.biz/240GroupProj"
+                    link="https://240.clyde.biz"
                     image="/images/projects/unix.webp"
                     github="https://github.com/CodingArctic/240GroupProj"
                     description="A tutorial website to teach common Unix skills & commands."
