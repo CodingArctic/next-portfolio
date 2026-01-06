@@ -5,7 +5,7 @@ function Resume() {
     let PATH = "/docs/2026.01.06.resume.pdf#view=FitH&toolbar=0";
     return (
         <div id="resume" className="my-5 mx-auto flex flex-col max-w-[85%]">
-            <h1 id="projects" className="text-5xl mb-5 font-bold text-[#D5C6E0]">
+            <h1 id="projects" className="text-5xl mb-5 font-bold text-[#D8BFD8]">
                 Resume
             </h1>
             <iframe src={PATH} loading="lazy" title="Clyde Geyer's Resume" className="hidden sm:block w-5/6 h-[500px] md:h-[700px] lg:h-[900px] min-w-[300px] sm:max-h-[500px] max-w-5xl self-center flex-auto flex-shrink">

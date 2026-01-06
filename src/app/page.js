@@ -9,7 +9,7 @@ export default function Home() {
       <main role="main">
         <div className="container mx-auto px-4 text-center">
           <div>
-            <p className="mt-6 text-5xl max-w-[85%] m-auto font-light">Hi, my name is <span className="text-[#D5C6E0] font-bold">Clyde Geyer</span></p>
+            <p className="mt-6 text-5xl max-w-[85%] m-auto font-light">Hi, my name is <span className="text-[#D8BFD8] font-bold">Clyde Geyer</span></p>
           </div>
           <div className="mt-2 m-auto max-w-80 text-wrap font-medium">
             I'm a full-stack developer, and fourth-year Web & Mobile Computing Major at RIT

@@ -8,17 +8,17 @@ function NavList() {
   return (
     <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <li className="p-1 font-medium">
-        <Link href="/#" className="flex items-center hover:text-[#D5C6E0] transition-colors">
+        <Link href="/#" className="flex items-center hover:text-[#D8BFD8] transition-colors">
           Home
         </Link>
       </li>
       <li className="p-1 font-medium">
-        <Link href="/#projects" className="flex items-center hover:text-[#D5C6E0] transition-colors">
+        <Link href="/#projects" className="flex items-center hover:text-[#D8BFD8] transition-colors">
           Projects
         </Link>
       </li>
       <li className="p-1 font-medium">
-        <Link href="/#resume" className="flex items-center hover:text-[#D5C6E0] transition-colors">
+        <Link href="/#resume" className="flex items-center hover:text-[#D8BFD8] transition-colors">
           Resume
         </Link>
       </li>
@@ -45,7 +45,7 @@ export function NavbarSimple() {
       <div className="flex items-center justify-between text-gray-100">
         <Link
           href="/#"
-          className="mr-4 cursor-pointer py-1.5 text-lg font-semibold hover:text-[#D5C6E0] transition-colors"
+          className="mr-4 cursor-pointer py-1.5 text-lg font-semibold hover:text-[#D8BFD8] transition-colors"
         >
           CLYDE GEYER | FULL STACK
         </Link>

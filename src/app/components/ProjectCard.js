@@ -39,7 +39,7 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [], 
     
     return (
         <>
-            <div className="relative rounded-xl max-w-2xl m-6 p-4 bg-gradient-to-bl from-[#D5C6E0]/60 via-[#2B7FFF]/20 to-[#2B7FFF]/20 transform transition-all duration-300 hover:scale-[1.03] overflow-hidden will-change-transform shadow-[0_0_0_2px_#D5C6E0] hover:shadow-[0_0_20px_rgba(213,198,224,0.5),0_0_0_2px_#D5C6E0]">
+            <div className="relative rounded-xl max-w-2xl m-6 p-4 bg-gradient-to-bl from-[#D8BFD8]/60 via-[#2B7FFF]/20 to-[#2B7FFF]/20 transform transition-all duration-300 hover:scale-[1.03] overflow-hidden will-change-transform shadow-[0_0_0_2px_#D8BFD8] hover:shadow-[0_0_20px_rgba(213,198,224,0.5),0_0_0_2px_#D8BFD8]">
                 <img
                     srcSet={`${imagePath}-640w.webp 640w, ${imagePath}-1024w.webp 1024w, ${imagePath}.webp 1200w`}
                     sizes="(max-width: 768px) 100vw, 672px"
@@ -51,7 +51,7 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [], 
                     className="rounded-md m-auto border-3 border-background w-full h-auto md:h-100 md:object-cover md:object-top transition-transform duration-300"
                 />
                 <div className="flex mt-2 place-content-between items-center">
-                    <h1 className="text-3xl font-bold text-[#D5C6E0]">{title}</h1>
+                    <h1 className="text-3xl font-bold text-[#D8BFD8]">{title}</h1>
                 </div>
                 {description && (
                     <p className="mt-2 text-gray-300 leading-relaxed">{description}</p>
@@ -72,12 +72,12 @@ const ProjectCard = ({ title, link, github, image, description, techStack = [], 
                     <div className="flex flex-row gap-1">
                         {link && (
                             <Link target="_blank" aria-label={`View ${title} project`} className="p-1.5 transition-all hover:scale-110 hover:text-[#BA5A31]" href={link}>
-                                <FaLink size={32} color="#D5C6E0"/>
+                                <FaLink size={32} color="#D8BFD8"/>
                             </Link>
                         )}
                         {github && (
                             <Link target="_blank" aria-label={`View ${title} on GitHub`} className="p-1.5 transition-all hover:scale-110 hover:text-[#BA5A31]" href={github}>
-                                <FaGithub size={32} color="#D5C6E0"/>
+                                <FaGithub size={32} color="#D8BFD8"/>
                             </Link>
                         )}
                     </div>
