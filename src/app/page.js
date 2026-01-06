@@ -25,7 +25,7 @@ export default function Home() {
         <Resume />
         <footer role="contentinfo" className="text-center my-2 align-middle">
           <p>made with <FaHeart size={16} className="inline text-[#D8BFD8]" title="thistle! (#D8BFD8)" /> by clyde + next.js</p>
-          <p>© 2025 clyde.biz - All Rights Reserved. </p>
+          <p>© 2025-2026 Clyde Geyer - All rights reserved. </p>
         </footer>
       </main>
     </>
