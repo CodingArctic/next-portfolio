@@ -24,7 +24,7 @@ export default function Home() {
         <hr className="my-5 mx-auto opacity-50 max-w-[85%]" />
         <Resume />
         <footer role="contentinfo" className="text-center my-2 align-middle">
-          <p>made with <FaHeart size={16} className="inline text-[#D5C6E0]" /> by clyde + next.js</p>
+          <p>made with <FaHeart size={16} className="inline text-[#D8BFD8]" title="thistle! (#D8BFD8)" /> by clyde + next.js</p>
           <p>© 2025 clyde.biz - All Rights Reserved. </p>
         </footer>
       </main>
