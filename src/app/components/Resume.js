@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 function Resume() {
-    let PATH = "/docs/2026.01.05.resume.pdf#view=FitH&toolbar=0";
+    let PATH = "/docs/2026.01.06.resume.pdf#view=FitH&toolbar=0";
     return (
         <div id="resume" className="my-5 mx-auto flex flex-col max-w-[85%]">
             <h1 id="projects" className="text-5xl mb-5 font-bold text-[#D5C6E0]">
