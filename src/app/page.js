@@ -11,8 +11,8 @@ export default function Home() {
           <div>
             <p className="mt-6 text-5xl max-w-[85%] m-auto font-light">Hi, my name is <span className="text-[#D8BFD8] font-bold">Clyde Geyer</span></p>
           </div>
-          <div className="mt-2 m-auto max-w-80 text-wrap font-medium">
-            I'm a full-stack developer, and fourth-year Web & Mobile Computing Major at RIT
+          <div className="mt-2 m-auto max-w-85 text-wrap font-medium">
+            I'm a IT Professional, Full-Stack Developer, and RIT Web & Mobile Computing Alum
           </div>
           <div className="flex mt-8 justify-center">
             <SocialLink name="LinkedIn" url="https://www.linkedin.com/in/clydegeyer/" />

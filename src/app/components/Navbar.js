@@ -47,7 +47,7 @@ export function NavbarSimple() {
           href="/#"
           className="mr-4 cursor-pointer py-1.5 text-lg font-semibold hover:text-[#D8BFD8] transition-colors"
         >
-          CLYDE GEYER | FULL STACK
+          CLYDE GEYER
         </Link>
         <div className="hidden lg:block">
           <NavList />
